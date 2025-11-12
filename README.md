@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 ---
 ## Data preparation
-We used __Kvasir__ and __HyperKvasir__ datasets for training and evaluation.
+We used __Kvasir__ and __HyperKvasir__ datasets for training and evaluation, as well as the __GastroHUN__ dataset for evaluation.
 
 ### Dataset
 - [__Kvasir__]("https://dl.acm.org/doi/abs/10.1145/3083187.3083212") – a public dataset of gastrointestinal endoscopy images containing normal and abnormal findings across eight classes.
