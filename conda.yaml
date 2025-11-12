@@ -1,0 +1,20 @@
+name: IRDM
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - pytorch-cuda=11.8
+  - omegaconf
+  - torchmetrics=0.10.3
+  - fvcore
+  - iopath
+  - pip
+  - pip:
+      - git+https://github.com/facebookincubator/submitit
+      - --extra-index-url https://pypi.nvidia.com
+      - cuml-cu11
