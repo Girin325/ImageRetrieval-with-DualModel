@@ -2,7 +2,6 @@
 
 ---
 
-Kangsan Kim, Junseok Park, Sang Hyun Kim, Youngbae Hwang
 
 [[Project Page]](https://github.com/Girin325/ImageRetrieval-with-DualModel)
 
