@@ -1,6 +1,5 @@
 # Improving Image-Retrieval Performance of Foundation Models in Gastrointestinal Endoscopic Images
 
----
 
 
 [[Project Page]](https://github.com/Girin325/ImageRetrieval-with-DualModel)
@@ -25,7 +24,7 @@ pip install -r requirements.txt
 ```
 
 ## Data preparation
----
+
 We used __Kvasir__ and __HyperKvasir__ datasets for training and evaluation, as well as the __GastroHUN__ dataset for evaluation.
 
 ### Dataset
@@ -60,4 +59,4 @@ python inference.py --query_dir path/to/query_directory --db_root path/to/databa
 
 ## Acknowledgment
 
-Our code is based on the implementation of DINOv2, GastroNet. We thank their excellent works.
+Our code is based on the implementation of [DINOv2](https://github.com/facebookresearch/dinov2), [GastroNet](https://huggingface.co/tgwboers/GastroNet-5M_Pretrained_Weights). We thank their excellent works.
