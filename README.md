@@ -40,6 +40,8 @@ You can check and download the checkpoint for DINOv2 [here](https://github.com/f
 ### GastroNet
 You can check and download the checkpoint for GastroNet [here](https://huggingface.co/tgwboers/GastroNet-5M_Pretrained_Weights).
 
+Then create a folder named ```pretrained_weights``` in this lepo and place the downloaded model in it.
+
 ## Utilization
 
 ### Traiing
