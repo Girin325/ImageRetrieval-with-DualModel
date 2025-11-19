@@ -11,7 +11,7 @@ PyTorch implementation of "Improving Image-Retrieval Performance of Foundation M
 
 
 ## Installation
-----
+---
 This repository is built upon [DINOv2 (Facebook Research)]("https://github.com/facebookresearch/dinov2") and extends it into a dual-backbone image retrieval framework optimized for gastrointestinal endoscopic image analysis.
 
 We used the __Python 3.10.__
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 ## Data preparation
-----
+---
 We used __Kvasir__ and __HyperKvasir__ datasets for training and evaluation, as well as the __GastroHUN__ dataset for evaluation.
 
 ### Dataset
@@ -34,7 +34,7 @@ We used __Kvasir__ and __HyperKvasir__ datasets for training and evaluation, as 
 - [__GastroHUN__]("https://www.nature.com/articles/s41597-025-04401-5") - gastrointestinal endoscopy video dataset (anatomical landmarks / findings).
 
 ## Pretrained Weights
-----
+---
 ### DINOv2
 You can check and download the checkpoint for DINOv2 [here]("https://github.com/facebookresearch/dinov2"). 
 
@@ -42,7 +42,7 @@ You can check and download the checkpoint for DINOv2 [here]("https://github.com/
 You can check and download the checkpoint for GastroNet [here]("https://huggingface.co/tgwboers/GastroNet-5M_Pretrained_Weights").
 
 ## Utilization
-----
+---
 ### Traiing
 ```shell
 python train_dual_model.py --mode tri --train_dir path/to/train --val_dir path/to/val --save_path path/to/save/model.pth
@@ -59,5 +59,5 @@ python inference.py --query_dir path/to/query_directory --db_root path/to/databa
 ```
 
 ## Acknowledgment
-----
+---
 Our code is based on the implementation of DINOv2, GastroNet. We thank their excellent works.
