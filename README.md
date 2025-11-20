@@ -42,6 +42,14 @@ You can check and download the checkpoint for GastroNet [here](https://huggingfa
 
 Then create a folder named ```pretrained_weights``` in this lepo and place the downloaded model in it.
 
+All implementation details for training, inference, and evaluation are publicly available in this repository:
+[https://github.com/Girin325/ImageRetrieval-with-DualModel](https://github.com/Girin325/ImageRetrieval-with-DualModel).
+
+The datasets used in this study — **Kvasir**, **HyperKvasir**, and **GastroHUN** — were organized using a carefully curated custom split to ensure balanced representation across anatomical categories and imaging conditions.
+
+To further enhance reproducibility, we are preparing to release the corresponding dataset split configuration files and preprocessing scripts.  
+These will be made publicly available in this repository as soon as data verification and documentation are complete.
+
 ## Utilization
 
 ### Traiing
