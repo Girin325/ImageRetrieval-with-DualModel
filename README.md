@@ -45,10 +45,11 @@ Then create a folder named ```pretrained_weights``` in this lepo and place the d
 All implementation details for training, inference, and evaluation are publicly available in this repository:
 [https://github.com/Girin325/ImageRetrieval-with-DualModel](https://github.com/Girin325/ImageRetrieval-with-DualModel).
 
-The datasets used in this study — **Kvasir**, **HyperKvasir**, and **GastroHUN** — were organized using a carefully curated custom split to ensure balanced representation across anatomical categories and imaging conditions.
+The datasets used in this study — **Kvasir**, **HyperKvasir**, and **GastroHUN** — were carefully curated to improve data quality and ensure balanced representation across anatomical categories and imaging conditions.  
+Low-quality or ambiguous samples were excluded during the curation process to enhance the robustness and clinical reliability of the model.
 
-To further enhance reproducibility, we are preparing to release the corresponding dataset split configuration files and preprocessing scripts.  
-These will be made publicly available in this repository as soon as data verification and documentation are complete.
+To further promote reproducibility, we are preparing to release the corresponding dataset split configuration files and preprocessing scripts.  
+These resources will be made publicly available in this repository once the verification and documentation steps are complete.
 
 ## Utilization
 
